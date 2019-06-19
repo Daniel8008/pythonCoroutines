@@ -3,7 +3,7 @@ import os
 import urllib.request
 
 async def download_courotine(url):
-    """This coroutine downloads a file from the internet
+    """This coroutine downloads a file from the internet or local network resource
     """
     request = urllib.request.urlopen(url)
     filename  = os.path.basename(url)
